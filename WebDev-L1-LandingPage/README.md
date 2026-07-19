@@ -22,7 +22,7 @@ This project is a responsive landing page developed as part of the Oasis Infobyt
 - CSS3
 
 ## Folder Structure
-
+```
 OIBSIP/
 │──WebDev-L1-LandingPage/
       │── index.html
@@ -31,8 +31,7 @@ OIBSIP/
             │──about.avif
             │──learn.avif
       └── README.md
-
-
+```
 ## How to Run
 1. Download or clone this repository.
 2. Open the `WebDev-L1-LandingPage` folder.
