@@ -22,12 +22,13 @@ This project is a responsive landing page developed as part of the Oasis Infobyt
 - CSS3
 
 ## Folder Structure
-
+---
 WebDev-L1-LandingPage/
 │── index.html
 │── style.css
 │── images/
 └── README.md
+---
 
 ## How to Run
 1. Download or clone this repository.
