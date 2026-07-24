@@ -19,10 +19,23 @@ A responsive personal portfolio website built using HTML5 and CSS3 as part of th
 - Google Fonts (Poppins)
 - Font Awesome
 
+## Project Structure
+
+```text
+WebDev-L1-Portfolio/
+│
+├── index.html
+├── style.css
+├── Animesh.pdf
+├── README.md
+└── images/
+    └── Animesh.png
+```
+
 ## How to Run
 1. Download or clone this repository.
 2. Open the `WebDev-L1-Portfolio` folder.
 3. Open `index.html` in any modern web browser.
 
 ## Author
-Animesh Kar
+**Animesh Kar**
