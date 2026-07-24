@@ -22,14 +22,14 @@ A responsive personal portfolio website built using HTML5 and CSS3 as part of th
 ## Project Structure
 
 ```text
-WebDev-L1-Portfolio/
-│
-├── index.html
-├── style.css
-├── Animesh.pdf
-├── README.md
-└── images/
-    └── Animesh.png
+OIBSIP/
+    ├──WebDev-L1-Portfolio/    
+        ├── index.html
+        ├── style.css
+        ├── Animesh.pdf
+        ├── README.md
+        └── images/
+            └── Animesh.png
 ```
 
 ## How to Run
