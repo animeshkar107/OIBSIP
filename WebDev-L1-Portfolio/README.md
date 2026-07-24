@@ -27,9 +27,9 @@ OIBSIP/
         ├── index.html
         ├── style.css
         ├── Animesh.pdf
-        ├── README.md
         └── images/
             └── Animesh.png
+        ├── README.md
 ```
 
 ## How to Run
