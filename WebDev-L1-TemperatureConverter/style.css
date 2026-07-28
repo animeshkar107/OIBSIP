@@ -1,0 +1,148 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Poppins",sans-serif;
+}
+/* Body */
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background:linear-gradient(135deg,#9a8c98,#4a4e69,#2b2d42);
+}
+/* Converter Card */
+.converter{
+    width:100%;
+    max-width:500px;
+    background:#e7edf7;
+    padding:35px;
+    border-radius:24px;
+    border:1px solid rgba(255,255,255,0.15);
+    box-shadow:0 20px 40px rgba(0,0,0,.25),
+    0 8px 16px rgba(0,0,0,.12);
+}
+
+h1{
+    text-align:center;
+    font-size:32px;
+    color:#333;
+    margin-bottom:10px;
+}
+
+h1 i{
+    color:#7abdd5;  
+}
+
+.converter p:first-of-type{
+    text-align:center;
+    color:#666;
+    margin-bottom:25px;
+}
+
+/* Input & Values Part */
+.input,.values{
+    margin-bottom:20px;
+}
+
+input::placeholder{
+    color:#8c96a7;
+}
+
+label{
+    display:block;
+    font-weight:600;
+    margin-bottom:8px;
+    color:#444;
+}
+
+input,select{
+    width:100%;
+    padding:14px;
+    background:#fdfdff;
+    border:2px solid #d5ddea;
+    border-radius:10px;
+    font-size:16px;
+    outline:none;
+
+}
+
+input:focus,select:focus{
+    border-color:#667eea;
+    box-shadow:0 0 10px rgba(102,126,234,.25);
+}
+
+/* Convert Button */
+button{
+    width:100%;
+    padding:15px;
+    background:#5f6ee8;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:17px;
+    font-weight:600;
+}
+
+button:hover{
+    background:#4959d6;
+}
+
+/* Error */
+#error{
+    text-align:center;
+    color:red;
+    font-weight:600;
+    margin-top:15px;
+    min-height:22px;
+}
+
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* Result */
+.result p{
+    background:#f7faff;
+    padding:15px 20px;
+    border-radius:10px;
+    margin-bottom:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border:1px solid #dce5f2;
+    color:#222;
+    font-size:17px;
+    font-weight:500;
+}
+
+.result p i{
+    font-size:1.2rem;
+    min-width:22px;
+}
+
+.result p:last-child{
+    margin-bottom:0;
+}
+
+/* Icon */
+.temp-icon{
+    color:#5AB7F5;    
+}
+
+.fire-icon{
+    color:#FF6B35;      
+}
+
+.snow-icon{
+    color:#7ED6FF;      
+}
+
+
