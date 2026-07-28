@@ -24,7 +24,7 @@ A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla 
 ## Folder Structure
 ```
 OIBSIP/
-   │──Temperature-Converter/
+   │──TemperatureConverter/
          │── index.html
          │── style.css
          │── script.js
@@ -32,7 +32,7 @@ OIBSIP/
 ```
 ## How to Run
 1. Download or clone this repository.
-2. Open the `WebDev-L1-Temperature-Converter` folder.
+2. Open the `WebDev-L1-TemperatureConverter` folder.
 3. Open `index.html` in any modern web browser.
 
 ## Author
