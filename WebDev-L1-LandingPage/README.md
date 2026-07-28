@@ -1,5 +1,7 @@
 # Landing Page (LearnHub)
 
+## Oasis Infobyte Web Development & Designing Internship
+
 ## Objective
 A responsive educational landing page built using HTML5 and CSS3 as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 1).
 
