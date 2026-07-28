@@ -36,7 +36,7 @@ OIBSIP/
 
 ## How to Run
 1. Download or clone this repository.
-2. Open the `WebDev-L1-Portfolio` folder.
+2. Open the `WebDev-L1-PersonalPortfolio` folder.
 3. Open `index.html` in any modern web browser.
 
 ## Author
