@@ -21,11 +21,12 @@ A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla 
 
 ## Project Structure
 ```
-Temperature-Converter/
-│── index.html
-│── style.css
-│── script.js
-└── README.md
+OIBSIP/
+  │──Temperature-Converter/
+        │── index.html
+        │── style.css
+        │── script.js
+        └── README.md
 ```
 ## How to Run
 1. Download or clone this repository.
