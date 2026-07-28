@@ -1,5 +1,7 @@
 # Temperature Converter
 
+## Oasis Infobyte Web Development & Designing Internship
+
 ## Objective
 A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla JavaScript as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 3).
 
