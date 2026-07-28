@@ -1,25 +1,23 @@
-# Landing Page(LearnHub)
+# Landing Page (LearnHub)
 
-## Oasis Infobyte Web Development & Designing Internship
-
-### Task 1 - Landing Page
-
-## Project Description
-This project is a responsive landing page developed as part of the Oasis Infobyte Web Development & Designing Internship. It features a clean and modern layout with multiple sections and is built using HTML and CSS.
+## Objective
+A responsive educational landing page built using HTML5 and CSS3 as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 1).
 
 ## Features
-- Responsive design
-- Navigation bar
-- Hero section
+- Responsive landing page design
+- Navigation bar with smooth scrolling
+- Hero section with call-to-action button
 - About section
-- Services section
+- Courses section
 - Contact section
-- Footer with social links
-- Smooth scrolling
+- Footer with social media links
+- Clean and modern user interface
 
 ## Technologies Used
 - HTML5
 - CSS3
+- Google Fonts (Poppins)
+- Font Awesome
 
 ## Folder Structure
 ```
@@ -32,12 +30,13 @@ OIBSIP/
             │──learn.avif
       └── README.md
 ```
+
 ## How to Run
 1. Download or clone this repository.
 2. Open the `WebDev-L1-LandingPage` folder.
 3. Open `index.html` in any modern web browser.
 
 ## Author
-
 **Animesh Kar**
+
 
