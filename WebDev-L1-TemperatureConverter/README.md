@@ -1,6 +1,6 @@
 # Temperature Converter
 
-##  Oasis Infobyte Web Development & Designing 
+##  Oasis Infobyte Web Development & Designing Internship
 
 ## Objective
 A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla JavaScript as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 3).
@@ -14,7 +14,14 @@ A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla 
 - Clean and responsive user interface
 - Modern design with Font Awesome icons
 
-## Project Structure
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Google Fonts (Poppins)
+- Font Awesome
+
+## Folder Structure
 ```
 OIBSIP/
    │──Temperature-Converter/
@@ -23,14 +30,6 @@ OIBSIP/
          │── script.js
          └── README.md
 ```
-
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Google Fonts (Poppins)
-- Font Awesome
-
 ## How to Run
 1. Download or clone this repository.
 2. Open the `WebDev-L1-Temperature-Converter` folder.
