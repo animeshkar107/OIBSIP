@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-## Oasis Infobyte Web Development & Designing Internship
+## Oasis Infobyte Web Development & Designing Internship 
 
 ## Objective
 A responsive personal portfolio website built using HTML5 and CSS3 as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 2).
