@@ -21,7 +21,7 @@ A responsive personal portfolio website built using HTML5 and CSS3 as part of th
 - Google Fonts (Poppins)
 - Font Awesome
 
-## Project Structure
+## Folder Structure
 
 ```text
 OIBSIP/
