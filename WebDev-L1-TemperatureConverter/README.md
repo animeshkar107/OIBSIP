@@ -3,7 +3,11 @@
 ##  Oasis Infobyte Web Development & Designing Internship
 
 ## Objective
-A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla JavaScript as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 3).
+A responsive temperature converter website built using HTML5, CSS3, and Vanilla JavaScript as part of the Oasis Infobyte Web Development & Designing Internship (Level 1 - Task 3).
+
+## Description
+
+This project is an interactive temperature converter that allows users to convert temperature values between Celsius, Fahrenheit, and Kelvin. Users can enter a temperature, select the input unit, and instantly view the converted values in the other temperature scales. The application includes real-time input validation, user-friendly error messages, absolute zero validation, and a clean, modern interface built using **HTML5**, **CSS3**, and **Vanilla JavaScript**.
 
 ## Features
 - Convert temperatures between Celsius, Fahrenheit, and Kelvin
@@ -24,7 +28,7 @@ A responsive Temperature Converter website built using HTML5, CSS3, and Vanilla 
 ## Folder Structure
 ```
 OIBSIP/
-   │──TemperatureConverter/
+   │──WebDev-L1-TemperatureConverter/
          │── index.html
          │── style.css
          │── script.js
