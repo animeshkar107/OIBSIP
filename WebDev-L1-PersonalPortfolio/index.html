@@ -1,139 +1,330 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animesh Kar | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <header>
-      <nav class="nav">
-        <a href="#intro">Home</a>
-        <a href="#about">About</a>
-        <a href="#skill">Skills</a>
-        <a href="#proj">Project</a>
-        <a href="#cont">Contact</a>
-      </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Animesh Kar - Web Developer and Python Enthusiast. Explore my skills, projects and portfolio.">
+
+    <title>Animesh Kar | Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <a href="#home" class="logo">AK<span>.</span></a>
+
+        <button class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="navigation"
+                type="button">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
+        <nav class="navigation" id="navigation">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact" class="contact-button">CONTACT</a>
+        </nav>
+
     </header>
 
-    <main>
-      <section class="home" id="intro">
 
-        <div class="cont">
-          <div class="home-content">
-          <div class="home-img">
-            <img src="images/Animesh.png" alt="Professional avatar of Animesh Kar" />
-          </div>
-          <div class="home-text">
-           <h1>Animesh Kar</h1>
-            <h2>Web Developer | Python Enthusiast</h2>
-            <p>
-              Hi! I'm <b>Animesh Kar</b>, a B.Tech Computer Science & Engineering
-              student at <b>SOA University</b> , ITER College with a passion for
-              <b>programming</b> , <b>web development</b>, and
-              <b>problem-solving</b>.
-            </p>
-            <a href="Animesh.pdf" download="Animesh_Kar_Resume.pdf" class="btn">
-            Download Resume
-          </a>
-          <a href="#cont" class="btn">
-            Get in Touch
-          </a>
-          </div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-copy">
+
+            <p class="intro">Hello, I'm</p>
+
+            <h1>Animesh Kar.</h1>
+
+            <p class="role">Web Developer | Python Enthusiast</p>
+
+            <div class="social-links">
+
+                <a href="https://github.com/animeshkar107"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">GH</a>
+
+                <a href="https://www.linkedin.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">IN</a>
+
+                <a href="mailto:your-email@gmail.com"
+                   aria-label="Email">@</a>
+
+            </div>
+
         </div>
-      </div>
-      </section>
 
-      <section class="abt" id="about">
-        <h2>About Me</h2>
-        <p>
-          I am a passionate B.Tech Computer Science and Engineering student at SOA University, ITER, driven by curiosity and a love for technology. I enjoy programming, web development, and solving algorithmic problems that strengthen my logical thinking. I am always eager to learn new technologies and build innovative projects that combine creativity with functionality.
-        </p>
-      </section>
+        <div class="hero-visual">
 
-<section class="skills" id="skill">
-    <h2>Skills</h2>
+            <div class="photo-frame">
+                <img src="images/Animesh1.jpeg"
+                     alt="Animesh Kar">
+            </div>
 
-    <div class="container">
-        <div class="box">Python</div>
-        <div class="box">Java</div>
-        <div class="box">Django</div>
-        <div class="box">HTML5</div>
-        <div class="box">CSS3</div>
-        <div class="box">JavaScript</div>
-        <div class="box">DSA</div>
-        <div class="box">Assembly Language</div>
-      </div>
-</section>
-
-      <section class="project" id="proj">
-        <h2>Projects</h2>
-
-        <div class="project-cont">
-          <div class="project-card">
-            <h3>Landing Page</h3><br>
-            <p>
-              A responsive landing page for an online learning platform featuring a modern layout, clean design, and intuitive navigation. 
-            </p>
-            <a href="https://github.com/animeshkar107/OIBSIP/tree/main/WebDev-L1-LandingPage" target="_blank"
-            class="btn">
-              View Code
-            </a>
-            <a href="https://animeshkar107.github.io/OIBSIP/WebDev-L1-LandingPage/index.html" target="_blank" class="btn">
-              Live Demo
-            </a>
-          </div>
-
-          <div class="project-card">
-            <h3>Temperature Converter</h3><br>
-            <p>Built a responsive temperature converter with real-time unit conversion, input validation, and a user-friendly interface.</p>
-            <a href="https://github.com/animeshkar107/OIBSIP/tree/main/WebDev-L1-TemperatureConverter" class="btn" target="_blank">View Code</a>
-
-            <a href="https://animeshkar107.github.io/OIBSIP/WebDev-L1-TemperatureConverter/index.html" target="_blank" class="btn">
-              Live Demo
-            </a>
-
-          </div>
         </div>
-      </section>
 
-      <section class="contact" id="cont">
-        <h2>Contact</h2>
-        <p><b>Email:</b> <a href="mailto:animeshkar2005@gmail.com" target="_blank">
-    <i class="fa-solid fa-envelope"></i> animeshkar2005@gmail.com
-        </a></p>
-        <p>
-          <b>Github:</b>
-          <a href="https://github.com/animeshkar107" target="_blank">
-            <i class="fa-brands fa-github"></i>
-            github.com/animeshkar107
-          </a>
-        </p>
-        <p>
-          <b>LinkedIn:</b>
-          <a
-            href="https://www.linkedin.com/in/animesh-kar-a46158355/"
-            target="_blank"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-            linkedin.com/in/animesh-kar-a46158355
-          </a>
-        </p>
-      </section>
-    </main>
+    </section>
 
-    <footer class="footer">
-      <p>&copy; 2026 Animesh Kar. All Rights Reserved.</p>
+
+    <!-- About Section -->
+    <section class="content-section" id="about">
+
+        <p class="section-kicker">01 / ABOUT ME</p>
+
+        <div class="section-grid">
+
+            <h2>Building ideas into <span>digital experiences.</span></h2>
+
+            <div class="section-copy">
+
+                <p>
+                    I am Animesh Kar, a Computer Science and Engineering
+                    student at SOA University, ITER.
+                </p>
+
+                <p>
+                    I am interested in web development, Python programming
+                    and backend development. I enjoy learning new
+                    technologies and building practical projects that
+                    solve real-world problems.
+                </p>
+
+                <div class="facts">
+
+                    <div>
+                        <strong>9.4</strong>
+                        <span>CGPA</span>
+                    </div>
+
+                    <div>
+                        <strong>2028</strong>
+                        <span>Graduation</span>
+                    </div>
+
+                    <div>
+                        <strong>CSE</strong>
+                        <span>Department</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Skills Section -->
+    <section class="content-section skills-section" id="skills">
+
+        <p class="section-kicker">02 / MY SKILLS</p>
+
+        <h2>Things I <span>work with.</span></h2>
+
+        <p class="section-lead">
+            Technologies and tools I use while learning and building projects.
+        </p>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Java</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>Django</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>DSA</h3>
+            </div>
+
+            <div class="skill-card">
+                <h3>SQL</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="content-section portfolio-section" id="projects">
+
+        <p class="section-kicker">03 / SELECTED WORK</p>
+
+        <h2>Projects I've <span>built.</span></h2>
+
+        <p class="section-lead">
+            A selection of my development projects.
+        </p>
+
+        <div class="project-grid">
+
+            <div class="project-card">
+
+                <p class="project-type">WEB DEVELOPMENT / DJANGO</p>
+
+                <h3>Travel & Tourism Website</h3>
+
+                <p>
+                    A Django-based travel website with user registration,
+                    login, tour packages, booking and booking management.
+                </p>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/animeshkar107/travel-tourism-site"
+                       target="_blank"
+                       rel="noopener noreferrer">GITHUB ↗</a>
+
+                    <a href="https://travel-tourism-site-1.onrender.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">LIVE DEMO ↗</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <p class="project-type">WEB DEVELOPMENT</p>
+
+                <h3>Personal Portfolio</h3>
+
+                <p>
+                    A responsive personal portfolio website showcasing
+                    my background, technical skills and projects.
+                </p>
+
+                <div class="project-links">
+
+                    <a href="https://github.com/animeshkar107/OIBSIP"
+                       target="_blank"
+                       rel="noopener noreferrer">GITHUB ↗</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <p class="project-type">DATA ANALYTICS / PYTHON</p>
+
+                <h3>Student Performance Analysis</h3>
+
+                <p>
+                    An exploratory data analysis project using Python,
+                    Pandas, NumPy and data visualization libraries.
+                </p>
+
+                <p class="project-status">PROJECT WORK</p>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <p class="project-type">SQL / DATA ANALYSIS</p>
+
+                <h3>Database Analysis</h3>
+
+                <p>
+                    SQL-based data analysis using queries, joins,
+                    aggregations and filtering to explore datasets.
+                </p>
+
+                <p class="project-status">PROJECT WORK</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+
+        <p class="section-kicker">04 / GET IN TOUCH</p>
+
+        <h2>Have a project <span>in mind?</span></h2>
+
+        <p>
+            Feel free to contact me for opportunities,
+            collaboration or just to connect.
+        </p>
+
+        <a href="mailto:your-email@gmail.com"
+           class="contact-email">
+            your-email@gmail.com
+        </a>
+
+        <div class="contact-socials">
+
+            <a href="https://github.com/animeshkar107"
+               target="_blank"
+               rel="noopener noreferrer">GITHUB</a>
+
+            <a href="https://www.linkedin.com/"
+               target="_blank"
+               rel="noopener noreferrer">LINKEDIN</a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <a href="#home" class="logo">AK<span>.</span></a>
+
+        <p>© <span id="year"></span> Animesh Kar. All rights reserved.</p>
+
+        <a href="#home">BACK TO TOP ↑</a>
+
     </footer>
-  </body>
+
+
+    <script src="script.js"></script>
+
+</body>
 </html>
